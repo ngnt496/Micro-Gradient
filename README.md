@@ -1,6 +1,6 @@
 # MicroGradient 
 
-Mạng nơ-ron đa tầng (MLP) và cơ chế lan truyền ngược (backpropagation / autograd engine) tối giản viết bằng Python thuần (lấy cảm hứng từ [micrograd](https://github.com/karpathy/micrograd)), song song với phiên bản đối chứng triển khai bằng thư viện **PyTorch**.
+Mạng nơ-ron đa tầng (MLP) và cơ chế lan truyền ngược (backpropagation / autograd engine) tối giản viết bằng Python ([micrograd](https://github.com/karpathy/micrograd)), song song với phiên bản đối chứng triển khai bằng thư viện **PyTorch**.
 
 Dự án áp dụng thử nghiệm trên **bài toán phi tuyến phân loại điểm hình tròn đồng tâm 2D** (`concentric circles`).
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ### 3. Chạy thử nghiệm
 
-- **Chạy phiên bản Micrograd (Python thuần):**
+- **Chạy phiên bản Micrograd :**
   ```bash
   python main.py
   ```
