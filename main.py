@@ -5,8 +5,8 @@ from sklearn.datasets import make_circles
 from engine import Value
 from nn import MLP
 
-random.seed(40)
-np.random.seed(40)
+random.seed(42)
+np.random.seed(42)
 
 X, y = make_circles(n_samples=30, factor=0.4, noise=0.08, random_state=42)
 xs = X.tolist()
@@ -16,7 +16,7 @@ model = MLP(2, [8, 8, 1])
 print(f"Tổng số tham số (weights + biases) của mạng: {len(model.parameters())}\n")
 
 learning_rate = 0.15
-epochs = 50
+epochs = 200
 
 for epoch in range(epochs):
     ypred = [model(x) for x in xs]
